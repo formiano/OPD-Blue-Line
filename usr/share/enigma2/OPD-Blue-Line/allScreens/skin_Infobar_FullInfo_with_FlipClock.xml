@@ -166,12 +166,12 @@
 	<!--  Caid-->
    <eLabel name="Rahmem_Caid" backgroundColor="blue" position="962,777" size="285,32" />
    <widget source="session.CurrentService" font="Regular; 30" backgroundColor="black" foregroundColor="darkgrey" halign="center" position="963,778" render="Label" size="283,30" transparent="1" valign="center" zPosition="3">
-   <convert type="OPD_CaidInfo2">CurCam</convert>
+   <convert type="OPDCaidInfo">CurCam</convert>
    </widget>
    <widget source="session.CurrentService" font="Regular; 30" position="963,778" size="283,30" halign="center" backgroundColor="black" transparent="0" valign="center" foregroundColor="yellow" render="Label" zPosition="1">
    <convert type="OPDEmuInfo">Emu</convert>
    </widget>
-	<widget source="session.CurrentService" render="Label" position="965,826" size="565,45" font="Console; 20" transparent="1" halign="left" valign="center" zPosition="3" backgroundColor="black" foregroundColor="darkgrey">
+	<widget source="session.CurrentService" render="Label" position="965,826" size="565,45" font="Console; 20" transparent="1" halign="left" valign="center" zPosition="3" backgroundColor="black" foregroundColor="cyan1">
         <convert type="CryptoInfo">VerboseInfo</convert>
         </widget>
 <!--    <widget source="session.CurrentService" render="Label" position="985,821" size="565,45" font="Console; 22" transparent="1" halign="center" valign="center" zPosition="3" backgroundColor="black" foregroundColor="darkgrey">

@@ -1,6 +1,6 @@
   <skin>
   <!--SecondInfobar Diagonal-->
-<ePixmap pixmap="Blue-Line-OCT-4NFR/colors/00000000.png" position="1739,18" size="180,60" zPosition="-5" />nt_Now" render="Label" position="1772,410" size="150,50" font="Regular;36" halign="left" foregroundColor="lightblue" backgroundColor="black" transparent="1" zPosition="2">
+<ePixmap pixmap="OPD-Blue-Line/colors/00000000.png" position="1739,18" size="180,60" zPosition="-5" />nt_Now" render="Label" position="1772,410" size="150,50" font="Regular;36" halign="left" foregroundColor="lightblue" backgroundColor="black" transparent="1" zPosition="2">
     <convert type="EventTime">EndTime</convert>
     <convert type="ClockToText">Format:- %H:%M</convert>
   </widget>
